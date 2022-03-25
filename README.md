@@ -72,7 +72,7 @@ College can be a stressful environment to make friends and especially peers to s
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://imgur.com/hvTgcZY" width=600>
+<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
 
 ### [BONUS] Digital Wireframes & Mockups
 
