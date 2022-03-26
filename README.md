@@ -84,7 +84,6 @@ College can be a stressful environment to make friends and especially peers to s
   * Chat
   * Annotated map 
 
-
 ### Models
  * Friends (count)
  * Location sharer
@@ -93,6 +92,9 @@ College can be a stressful environment to make friends and especially peers to s
  * Coordinates
  
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- get friends by clases
+- get friends locations 
+- post specific room location (e.g., Builing Alplha, floor a, room 345)
+- get/post infomation for friends profile (name, bio, profile photo, status)
+- post coordiante location
+- get friends enrolled classes
