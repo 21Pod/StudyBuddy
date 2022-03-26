@@ -79,8 +79,8 @@ College can be a stressful environment to make friends and especially peers to s
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-  * User 
-  * Profile card
+  * User Profile
+  * Search
   * Chat
   * Annotated map 
 
