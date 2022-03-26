@@ -79,9 +79,19 @@ College can be a stressful environment to make friends and especially peers to s
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+  * User 
+  * Profile card
+  * Chat
+  * Annotated map 
+
+
 ### Models
-[Add table of models]
+ * Friends (count)
+ * Location sharer
+ * Classes
+ * Bio (caption)
+ * Coordinates
+ * 
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
