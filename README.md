@@ -91,7 +91,7 @@ College can be a stressful environment to make friends and especially peers to s
  * Classes
  * Bio (caption)
  * Coordinates
- * 
+ 
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
