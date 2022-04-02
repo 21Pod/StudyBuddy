@@ -90,11 +90,34 @@ College can be a stressful environment to make friends and especially peers to s
  * Classes
  * Bio (caption)
  * Coordinates
- 
+
+
+   | Property         | Type     | Description |
+   | ---------------- | -------- | ------------|
+   | friends          | Number   | number of likes for the post |
+   | classes          | String   | List of classes that a student takes |
+   | bio (caption)    | String   | bio fields made by the user |
+   | coordiantes      | String   | PF Object using the PFGeoPoint |
+   
+
+
 ### Networking
 - get friends by clases
 - get friends locations 
-- post specific room location (e.g., Builing Alplha, floor a, room 345)
+
+- ```swift
+          // User's location
+          let userGeoPoint = userObject["location"] as PFGeoPoint
+          // Create a query for places
+          var query = PFQuery(className:"PlaceObject")
+          // Interested in locations near user.
+          query.whereKey("location", nearGeoPoint:userGeoPoint)
+          // Limit what could be a lot of points.
+          query.limit = 10
+          // Final list of objects
+          placesObjects = query.findObjects()
+         ```
+- post specific room location (e.g., Builing Name, floor a, room 345)
 - get/post infomation for friends profile (name, bio, profile photo, status)
 - post coordiante location
 - get friends enrolled classes
