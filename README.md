@@ -121,6 +121,7 @@ College can be a stressful environment to make friends and especially peers to s
 - get/post infomation for friends profile (name, bio, profile photo, status)
 - post coordiante location
 - get friends enrolled classes
-####Assingments
+
+### Assingments
 yeleaman: Parse Server
 Aida: Logo Design for the app
