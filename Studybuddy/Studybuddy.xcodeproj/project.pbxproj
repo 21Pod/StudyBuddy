@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EFAECF327FD3B2A001E176C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAECF227FD3B2A001E176C /* LoginViewController.swift */; };
+		8EFAECF527FD3B4C001E176C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFAECF427FD3B4C001E176C /* HomeViewController.swift */; };
 		AE5C613827EF95B500690476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C613727EF95B500690476 /* AppDelegate.swift */; };
 		AE5C613A27EF95B500690476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C613927EF95B500690476 /* SceneDelegate.swift */; };
-		AE5C613C27EF95B500690476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C613B27EF95B500690476 /* ViewController.swift */; };
 		AE5C613F27EF95B500690476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5C613D27EF95B500690476 /* Main.storyboard */; };
 		AE5C614127EF95BD00690476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C614027EF95BD00690476 /* Assets.xcassets */; };
 		AE5C614427EF95BD00690476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5C614227EF95BD00690476 /* LaunchScreen.storyboard */; };
@@ -38,10 +39,11 @@
 
 /* Begin PBXFileReference section */
 		8992C0760D439A93D6F2E9BB /* Pods-Studybuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.debug.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		8EFAECF227FD3B2A001E176C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8EFAECF427FD3B4C001E176C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AE5C613427EF95B500690476 /* Studybuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studybuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C613727EF95B500690476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5C613927EF95B500690476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE5C613B27EF95B500690476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE5C613E27EF95B500690476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5C614027EF95BD00690476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5C614327EF95BD00690476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,7 +89,6 @@
 				8992C0760D439A93D6F2E9BB /* Pods-Studybuddy.debug.xcconfig */,
 				D07C9A5CC6F9EF03373336CF /* Pods-Studybuddy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,11 +119,12 @@
 			children = (
 				AE5C613727EF95B500690476 /* AppDelegate.swift */,
 				AE5C613927EF95B500690476 /* SceneDelegate.swift */,
-				AE5C613B27EF95B500690476 /* ViewController.swift */,
 				AE5C613D27EF95B500690476 /* Main.storyboard */,
 				AE5C614027EF95BD00690476 /* Assets.xcassets */,
 				AE5C614227EF95BD00690476 /* LaunchScreen.storyboard */,
 				AE5C614527EF95BD00690476 /* Info.plist */,
+				8EFAECF227FD3B2A001E176C /* LoginViewController.swift */,
+				8EFAECF427FD3B4C001E176C /* HomeViewController.swift */,
 			);
 			path = Studybuddy;
 			sourceTree = "<group>";
@@ -327,9 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5C613C27EF95B500690476 /* ViewController.swift in Sources */,
+				8EFAECF327FD3B2A001E176C /* LoginViewController.swift in Sources */,
 				AE5C613827EF95B500690476 /* AppDelegate.swift in Sources */,
 				AE5C613A27EF95B500690476 /* SceneDelegate.swift in Sources */,
+				8EFAECF527FD3B4C001E176C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
