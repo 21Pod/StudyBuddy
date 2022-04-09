@@ -13,6 +13,7 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // user can chat with friends in tableview
     }
     
 

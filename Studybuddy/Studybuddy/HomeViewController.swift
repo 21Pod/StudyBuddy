@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // Will set up map here
     }
     
     @IBAction func onLogoutButton(_ sender: Any) {

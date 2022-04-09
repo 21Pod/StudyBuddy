@@ -4,6 +4,8 @@
 //
 //  Created by Yelaman Sain on 4/5/22.
 //  Edited by Emma Jin on 4/8/22.
+// -----------------------------------------
+// TODO: Should direct users who are signing up to page for email verification before directing them to the home screen
 
 import UIKit
 import Parse

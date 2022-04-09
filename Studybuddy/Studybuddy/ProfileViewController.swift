@@ -3,7 +3,7 @@
 //  Studybuddy
 //
 //  Created by Emma Jin on 4/8/22.
-//
+// -------------------------------------------
 
 import UIKit
 import Parse
