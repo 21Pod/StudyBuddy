@@ -3,9 +3,10 @@
 //  Studybuddy
 //
 //  Created by Yelaman Sain on 4/5/22.
-//
+//  Edited by Emma Jin on 4/8/22.
 
 import UIKit
+import Parse
 
 class HomeViewController: UIViewController {
 
@@ -15,7 +16,17 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onLogoutButton(_ sender: Any) {
+        print("in onLogout")
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "loginViewController")
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
+        
+        delegate.window?.rootViewController = loginViewController
+    }
+    
     /*
     // MARK: - Navigation
 

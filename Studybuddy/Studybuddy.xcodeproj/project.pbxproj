@@ -17,6 +17,8 @@
 		AE5C614F27EF95BE00690476 /* StudybuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C614E27EF95BE00690476 /* StudybuddyTests.swift */; };
 		AE5C615927EF95BE00690476 /* StudybuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C615827EF95BE00690476 /* StudybuddyUITests.swift */; };
 		AE5C615B27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C615A27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift */; };
+		B19B7A932800E8DD00F5B897 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */; };
+		B19B7A952801329000F5B897 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A942801329000F5B897 /* EditProfileViewController.swift */; };
 		D7BB15BD6E8585D8DCA28C7C /* Pods_Studybuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6DA11F363897793B0E8182 /* Pods_Studybuddy.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		AE5C615427EF95BE00690476 /* StudybuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudybuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C615827EF95BE00690476 /* StudybuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudybuddyUITests.swift; sourceTree = "<group>"; };
 		AE5C615A27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudybuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B19B7A942801329000F5B897 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		CA6DA11F363897793B0E8182 /* Pods_Studybuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studybuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07C9A5CC6F9EF03373336CF /* Pods-Studybuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.release.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,8 @@
 				AE5C614527EF95BD00690476 /* Info.plist */,
 				8EFAECF227FD3B2A001E176C /* LoginViewController.swift */,
 				8EFAECF427FD3B4C001E176C /* HomeViewController.swift */,
+				B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */,
+				B19B7A942801329000F5B897 /* EditProfileViewController.swift */,
 			);
 			path = Studybuddy;
 			sourceTree = "<group>";
@@ -331,6 +337,8 @@
 			files = (
 				8EFAECF327FD3B2A001E176C /* LoginViewController.swift in Sources */,
 				AE5C613827EF95B500690476 /* AppDelegate.swift in Sources */,
+				B19B7A952801329000F5B897 /* EditProfileViewController.swift in Sources */,
+				B19B7A932800E8DD00F5B897 /* ProfileViewController.swift in Sources */,
 				AE5C613A27EF95B500690476 /* SceneDelegate.swift in Sources */,
 				8EFAECF527FD3B4C001E176C /* HomeViewController.swift in Sources */,
 			);
@@ -512,7 +520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Studybuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -520,12 +528,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shivpvtel.Studybuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emma.mq.jin.Studybuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +550,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Studybuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -549,12 +558,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shivpvtel.Studybuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emma.mq.jin.Studybuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -569,7 +579,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -589,7 +599,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -608,7 +618,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = shivpvtel.StudybuddyUITests;
@@ -626,7 +636,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X7G34PUL2J;
+				DEVELOPMENT_TEAM = LXYCHK4M6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = shivpvtel.StudybuddyUITests;

@@ -3,7 +3,7 @@
 //  Studybuddy
 //
 //  Created by Yelaman Sain on 4/5/22.
-//
+//  Edited by Emma Jin on 4/8/22.
 
 import UIKit
 import Parse
@@ -30,9 +30,15 @@ class LoginViewController: UIViewController {
     
     @IBAction func onSignup(_ sender: Any) {
         let user = PFUser()
+        
+        // store username & password, initialize other fields for display in profile
         user.username = usernameField.text
         user.password = passwordField.text
-        
+
+        user["displayName"] = user.username
+        //user["institution"] = ""
+        //user["courseList"] = []
+        //user["bio"] = ""
         
         let imageName = "image_placeholder.png"
         let image = UIImage(named: imageName)!
@@ -45,6 +51,9 @@ class LoginViewController: UIViewController {
         user.signUpInBackground { (success, error) in
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                // if the user haven't verified email yet (which is always the case for a new user who signed up with a username, ask the user for an email first
+                
+                // then, if the user has successfully verified their email, store the email, set emailVerified to true, and segue to home page
             } else {
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
