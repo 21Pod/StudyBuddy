@@ -19,6 +19,8 @@
 		AE5C615B27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C615A27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift */; };
 		B19B7A932800E8DD00F5B897 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */; };
 		B19B7A952801329000F5B897 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A942801329000F5B897 /* EditProfileViewController.swift */; };
+		B19B7A972801611300F5B897 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A962801611300F5B897 /* FriendsViewController.swift */; };
+		B19B7A992801613100F5B897 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B7A982801613100F5B897 /* ChatViewController.swift */; };
 		D7BB15BD6E8585D8DCA28C7C /* Pods_Studybuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6DA11F363897793B0E8182 /* Pods_Studybuddy.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		AE5C615A27EF95BE00690476 /* StudybuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudybuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B19B7A942801329000F5B897 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		B19B7A962801611300F5B897 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		B19B7A982801613100F5B897 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CA6DA11F363897793B0E8182 /* Pods_Studybuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studybuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07C9A5CC6F9EF03373336CF /* Pods-Studybuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.release.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +135,8 @@
 				8EFAECF427FD3B4C001E176C /* HomeViewController.swift */,
 				B19B7A922800E8DD00F5B897 /* ProfileViewController.swift */,
 				B19B7A942801329000F5B897 /* EditProfileViewController.swift */,
+				B19B7A962801611300F5B897 /* FriendsViewController.swift */,
+				B19B7A982801613100F5B897 /* ChatViewController.swift */,
 			);
 			path = Studybuddy;
 			sourceTree = "<group>";
@@ -337,8 +343,10 @@
 			files = (
 				8EFAECF327FD3B2A001E176C /* LoginViewController.swift in Sources */,
 				AE5C613827EF95B500690476 /* AppDelegate.swift in Sources */,
+				B19B7A992801613100F5B897 /* ChatViewController.swift in Sources */,
 				B19B7A952801329000F5B897 /* EditProfileViewController.swift in Sources */,
 				B19B7A932800E8DD00F5B897 /* ProfileViewController.swift in Sources */,
+				B19B7A972801611300F5B897 /* FriendsViewController.swift in Sources */,
 				AE5C613A27EF95B500690476 /* SceneDelegate.swift in Sources */,
 				8EFAECF527FD3B4C001E176C /* HomeViewController.swift in Sources */,
 			);

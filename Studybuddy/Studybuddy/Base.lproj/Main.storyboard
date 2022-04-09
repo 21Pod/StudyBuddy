@@ -107,7 +107,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="VR2-PI-wQB">
                         <barButtonItem key="leftBarButtonItem" title="Logout" style="plain" id="qnm-Ga-zhL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="J0R-qt-kpJ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="J0R-qt-kpJ">
                                 <rect key="frame" x="16" y="12.666666666666664" width="83" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -126,7 +126,7 @@
         <!--Chat-->
         <scene sceneID="SYJ-nw-LvJ">
             <objects>
-                <viewController id="wtb-Wg-Aoe" sceneMemberID="viewController">
+                <viewController id="wtb-Wg-Aoe" customClass="ChatViewController" customModule="Studybuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NSl-kz-Z1i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +156,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emma" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOO-UV-I6G" userLabel="displayName">
-                                <rect key="frame" x="254.99999999999997" y="276" width="72.666666666666657" height="30"/>
+                                <rect key="frame" x="255" y="276" width="80" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -210,6 +210,7 @@
                             <constraint firstItem="QVn-8F-r20" firstAttribute="top" secondItem="0D0-cU-PED" secondAttribute="top" constant="40" id="NKY-Wb-Ypf"/>
                             <constraint firstItem="Cmi-g9-4Xr" firstAttribute="top" secondItem="WuH-RO-Pu6" secondAttribute="bottom" constant="15" id="RjW-pZ-S2b"/>
                             <constraint firstItem="LkU-qS-98s" firstAttribute="leading" secondItem="DBw-RP-T9Y" secondAttribute="leading" constant="40" id="V1X-Kj-evK"/>
+                            <constraint firstItem="DBw-RP-T9Y" firstAttribute="trailing" secondItem="XOO-UV-I6G" secondAttribute="trailing" constant="40" id="W2O-RR-msI"/>
                             <constraint firstItem="LkU-qS-98s" firstAttribute="top" secondItem="0VY-c7-Tcs" secondAttribute="bottom" constant="40" id="a7t-Sj-jbw"/>
                             <constraint firstItem="0VY-c7-Tcs" firstAttribute="leading" secondItem="DBw-RP-T9Y" secondAttribute="leading" constant="40" id="j5v-5B-7Fx"/>
                             <constraint firstItem="XOO-UV-I6G" firstAttribute="leading" secondItem="0VY-c7-Tcs" secondAttribute="trailing" constant="15" id="lKS-zK-zZb"/>
@@ -350,7 +351,7 @@
         <!--Friends-->
         <scene sceneID="ijc-J5-m5A">
             <objects>
-                <viewController id="qbF-fi-Csn" sceneMemberID="viewController">
+                <viewController id="qbF-fi-Csn" customClass="FriendsViewController" customModule="Studybuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KU7-gT-ze6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
