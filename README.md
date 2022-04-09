@@ -24,25 +24,31 @@ College can be a stressful environment to make friends and especially peers to s
 
 ### 1. User Stories (Required and Optional)
 
+
+#### Gifs to show progress:
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 **Required Must-have Stories**
 
-* User can see the app logo and open the app from the home page
-* User can login (based on school email)
-* User can share the location
-* User can choose what class they want to share their location with
-* User can see everyone who are sharing their location and see their basic profile (user can filter based on classes)
-* User can see their profile (current classes, bio, privacy settings, etc)
-* Refresh page button
-* User can stop sharing location
+- [ ] User can see the app logo and open the app from the home page
+- [x] User can sign up and login
+- [x] User can stay logged in across sessions
+- [x] User can log out
+- [ ] User can share the location
+- [ ] User can choose what class they want to share their location with
+- [ ] User can see everyone who are sharing their location and see their basic profile (user can filter based on classes)
+- [x] User can see their profile
+- [ ] Refresh page button
+- [ ] User can stop sharing location
 
 
 
 **Optional Nice-to-have Stories**
 
-* Chat function
-* Directions
-* Automatically update your current classes each term
-* User can set a study time, after which automatically stop sharing location
+- [ ] Chat function
+- [ ] Directions
+- [ ] Automatically update your current classes each term
+- [ ] User can set a study time, after which automatically stop sharing location
 
 
 ### 2. Screen Archetypes
