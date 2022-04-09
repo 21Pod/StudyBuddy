@@ -128,6 +128,7 @@ College can be a stressful environment to make friends and especially peers to s
 - post coordiante location
 - get friends enrolled classes
 
-### Assingments
-yeleaman: Parse Server
-Aida: Logo Design for the app
+### Assignments (See more detailed version in Project Kanban)
+* yeleaman: Parse Server
+* Emma: profile page
+* Aida: Logo Design for the app
