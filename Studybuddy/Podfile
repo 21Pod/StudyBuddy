@@ -7,7 +7,7 @@ target 'Studybuddy' do
 
   pod 'AlamofireImage'
   pod 'Parse'
-  pod 'MessageInputBar' 
+  pod 'MessageInputBar'
 
   # Pods for Parstagram
 
