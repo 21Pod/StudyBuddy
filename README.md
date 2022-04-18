@@ -27,16 +27,17 @@ College can be a stressful environment to make friends and especially peers to s
 
 #### Gifs to show progress:
 <img src='https://i.imgur.com/asEy19w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 **Required Must-have Stories**
 
-- [ ] User can see the app logo and open the app from the home page
+- [x] User can see the app logo and open the app from the home page
 - [x] User can sign up and login
 - [x] User can stay logged in across sessions
 - [x] User can log out
-- [ ] User can share the location
-- [ ] User can choose what class they want to share their location with
-- [ ] User can see everyone who are sharing their location and see their basic profile (user can filter based on classes)
+- [x] User can share the location
+- [x] User can choose what class they want to share their location with
+- [x] User can see everyone who are sharing their location and see their basic profile (user can filter based on classes)
 - [x] User can see their profile
 - [ ] Refresh page button
 - [ ] User can stop sharing location
