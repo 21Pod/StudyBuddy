@@ -28,6 +28,17 @@ class ProfileViewController: UIViewController {
         displayUserInfo()
     }
     
+    @IBAction func onLogoutButton(_ sender: Any) {
+        print("in onLogout")
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "loginViewController")
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
+        
+        delegate.window?.rootViewController = loginViewController
+    }
+    
     func displayUserInfo() {
         // function to display user's profile picture, display name, institution, and bio
         

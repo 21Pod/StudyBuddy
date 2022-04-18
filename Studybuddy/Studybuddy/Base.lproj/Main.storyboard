@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -139,19 +139,7 @@
                             <constraint firstItem="bg8-0d-nPL" firstAttribute="leading" secondItem="oXu-cV-6PY" secondAttribute="leading" constant="20" id="pW6-UL-3ux"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="VR2-PI-wQB">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" style="plain" id="qnm-Ga-zhL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="J0R-qt-kpJ">
-                                <rect key="frame" x="16" y="12.666666666666664" width="83" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
-                                <connections>
-                                    <action selector="onLogoutButton:" destination="MDR-Nn-EC5" eventType="touchUpInside" id="hBo-Q3-WM1"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="VR2-PI-wQB"/>
                     <connections>
                         <outlet property="mapView" destination="QqX-f8-ZRF" id="d0t-o2-VnK"/>
                     </connections>
@@ -233,6 +221,14 @@
                                     <segue destination="owS-9U-omP" kind="presentation" id="wae-EF-m79"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwB-Nc-xiP">
+                                <rect key="frame" x="30" y="40" width="76" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
+                                <connections>
+                                    <action selector="onLogoutButton:" destination="nci-r2-E7W" eventType="touchUpInside" id="jji-GQ-oMP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DBw-RP-T9Y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -245,6 +241,7 @@
                             <constraint firstItem="XOO-UV-I6G" firstAttribute="top" secondItem="DBw-RP-T9Y" secondAttribute="top" constant="220" id="Jq2-KZ-eGa"/>
                             <constraint firstItem="rye-7h-z1C" firstAttribute="top" secondItem="0VY-c7-Tcs" secondAttribute="bottom" constant="40" id="M2j-Sq-ZEm"/>
                             <constraint firstItem="QVn-8F-r20" firstAttribute="top" secondItem="0D0-cU-PED" secondAttribute="top" constant="40" id="NKY-Wb-Ypf"/>
+                            <constraint firstItem="WwB-Nc-xiP" firstAttribute="top" secondItem="0D0-cU-PED" secondAttribute="top" constant="40" id="PTz-nf-WHk"/>
                             <constraint firstItem="Cmi-g9-4Xr" firstAttribute="top" secondItem="WuH-RO-Pu6" secondAttribute="bottom" constant="15" id="RjW-pZ-S2b"/>
                             <constraint firstItem="LkU-qS-98s" firstAttribute="leading" secondItem="DBw-RP-T9Y" secondAttribute="leading" constant="40" id="V1X-Kj-evK"/>
                             <constraint firstItem="DBw-RP-T9Y" firstAttribute="trailing" secondItem="XOO-UV-I6G" secondAttribute="trailing" constant="40" id="W2O-RR-msI"/>
@@ -252,9 +249,12 @@
                             <constraint firstItem="0VY-c7-Tcs" firstAttribute="leading" secondItem="DBw-RP-T9Y" secondAttribute="leading" constant="40" id="j5v-5B-7Fx"/>
                             <constraint firstItem="XOO-UV-I6G" firstAttribute="leading" secondItem="0VY-c7-Tcs" secondAttribute="trailing" constant="15" id="lKS-zK-zZb"/>
                             <constraint firstItem="rye-7h-z1C" firstAttribute="leading" secondItem="LkU-qS-98s" secondAttribute="trailing" constant="25" id="qqI-jw-zyI"/>
+                            <constraint firstItem="WwB-Nc-xiP" firstAttribute="leading" secondItem="DBw-RP-T9Y" secondAttribute="leading" constant="30" id="tMz-lg-Nia"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="dVA-ZQ-JPr"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="bioTextLabel" destination="Cmi-g9-4Xr" id="Al4-Uj-b3x"/>
                         <outlet property="displayNameLabel" destination="XOO-UV-I6G" id="Qrm-uJ-aBg"/>
@@ -275,31 +275,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Picture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRE-Pa-Sm8">
-                                <rect key="frame" x="40" y="144" width="116" height="21"/>
+                                <rect key="frame" x="40" y="100" width="116" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAb-ym-owN">
-                                <rect key="frame" x="40" y="420" width="112" height="21"/>
+                                <rect key="frame" x="40" y="376" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Institution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jiu-Rb-UUA">
-                                <rect key="frame" x="40" y="510" width="84" height="21"/>
+                                <rect key="frame" x="40" y="466" width="84" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWI-7O-S12">
-                                <rect key="frame" x="40" y="600" width="26" height="21"/>
+                                <rect key="frame" x="40" y="556" width="26" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxH-3i-mBE">
-                                <rect key="frame" x="263.66666666666669" y="84" width="76.333333333333314" height="31"/>
+                                <rect key="frame" x="265" y="40" width="75" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="square.text.square" catalog="system" title="Save"/>
                                 <connections>
@@ -307,7 +307,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name you want to display to others" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BhG-cF-DjS" userLabel="displayNameField">
-                                <rect key="frame" x="40" y="451" width="290" height="34"/>
+                                <rect key="frame" x="40" y="407" width="290" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="290" id="jfA-pz-9AY"/>
                                 </constraints>
@@ -315,7 +315,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of institution you are studying at" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7xY-Kr-AXQ" userLabel="institutionField">
-                                <rect key="frame" x="40" y="541" width="290" height="34"/>
+                                <rect key="frame" x="40" y="497" width="290" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="290" id="WQC-Sg-k8S"/>
                                 </constraints>
@@ -323,7 +323,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Anything about you!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ex-td-ZHj" userLabel="bioTextField">
-                                <rect key="frame" x="40" y="631" width="290" height="34"/>
+                                <rect key="frame" x="40" y="587" width="290" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="290" id="sdP-Vo-5UC"/>
                                 </constraints>
@@ -331,7 +331,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hj8-QN-r1L">
-                                <rect key="frame" x="40" y="180" width="200" height="200"/>
+                                <rect key="frame" x="40" y="136" width="200" height="200"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="NlG-ZH-FfW"/>
@@ -394,10 +394,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rME-Bn-UuI">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="709"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="675"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvT-qN-zPF">
-                                <rect key="frame" x="254" y="648" width="101" height="31"/>
+                                <rect key="frame" x="254" y="614" width="101" height="31"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Find friends">
