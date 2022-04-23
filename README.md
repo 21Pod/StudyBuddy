@@ -27,10 +27,22 @@ College can be a stressful environment to make friends and especially peers to s
 
 #### Gifs to show progress:
 <img src='https://i.imgur.com/asEy19w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Update 4.17:
+#### Update 4.17:
 <img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-update 4.22:
+#### Update 4.22:
+
+**Login**
+<img src='login page studybuddy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**Home Screen**
+<img src='home page .gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**Friends screen**
 <img src='Friends show.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**Profile Page** 
+<img src='profile page.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 **Required Must-have Stories**
 
 - [x] User can see the app logo and open the app from the home page
