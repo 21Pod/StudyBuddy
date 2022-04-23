@@ -52,6 +52,12 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         manager.startUpdatingLocation()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    
     // called when startUpDatingLocation()
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
@@ -141,6 +147,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         
         present(classesActionSheet, animated: true)
     }
+    
     
 
 }

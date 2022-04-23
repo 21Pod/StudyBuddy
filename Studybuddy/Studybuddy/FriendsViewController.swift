@@ -32,6 +32,11 @@ class FriendsViewController: UIViewController, CLLocationManagerDelegate {
         loadFriends()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     // called when startUpDatingLocation()
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         

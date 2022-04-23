@@ -28,6 +28,12 @@ class ProfileViewController: UIViewController {
         displayUserInfo()
     }
     
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     @IBAction func onLogoutButton(_ sender: Any) {
         print("in onLogout")
         PFUser.logOut()

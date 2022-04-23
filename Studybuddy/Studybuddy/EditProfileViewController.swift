@@ -26,12 +26,13 @@ class EditProfileViewController: UIViewController, UIImagePickerControllerDelega
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        
+       
         if let prevViewController = presentingViewController as? ProfileViewController {
             DispatchQueue.main.async {
                 prevViewController.displayUserInfo()
             }
         }
+        navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     @IBAction func onSaveProfile(_ sender: Any) {
