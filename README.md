@@ -29,7 +29,8 @@ College can be a stressful environment to make friends and especially peers to s
 <img src='https://i.imgur.com/asEy19w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Update 4.17:
 <img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+update 4.22:
+<img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 **Required Must-have Stories**
 
 - [x] User can see the app logo and open the app from the home page
@@ -82,9 +83,7 @@ Update 4.17:
 [Add picture of your hand sketched wireframes in this section]
 
 <img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
-<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
-<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
-<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
