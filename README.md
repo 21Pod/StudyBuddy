@@ -80,6 +80,10 @@ Update 4.17:
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
+
+<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
 <img src="https://i.imgur.com/hvTgcZY.jpg" title="source: imgur.com" />
 
 ### [BONUS] Digital Wireframes & Mockups
