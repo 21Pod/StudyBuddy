@@ -27,8 +27,10 @@ College can be a stressful environment to make friends and especially peers to s
 
 #### Gifs to show progress:
 <img src='https://i.imgur.com/asEy19w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 #### Update 4.17:
 <img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 #### Update 4.22:
 
 **Login** 
