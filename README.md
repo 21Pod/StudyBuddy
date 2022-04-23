@@ -31,16 +31,20 @@ College can be a stressful environment to make friends and especially peers to s
 <img src='https://i.imgur.com/cRrf21w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 #### Update 4.22:
 
-**Login**
+**Login** 
+
 <img src='login page studybuddy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 **Home Screen**
+
 <img src='home page .gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 **Friends screen**
+
 <img src='Friends show.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 **Profile Page** 
+
 <img src='profile page.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 **Required Must-have Stories**
