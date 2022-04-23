@@ -59,9 +59,6 @@ College can be a stressful environment to make friends and especially peers to s
 - [x] User can choose what class they want to share their location with
 - [x] User can see everyone who are sharing their location and see their basic profile (user can filter based on classes)
 - [x] User can see their profile
-- [ ] Refresh page button
-- [ ] User can stop sharing location
-
 
 
 **Optional Nice-to-have Stories**
@@ -70,6 +67,8 @@ College can be a stressful environment to make friends and especially peers to s
 - [ ] Directions
 - [ ] Automatically update your current classes each term
 - [ ] User can set a study time, after which automatically stop sharing location
+- [ ] Refresh page button
+- [ ] User can stop sharing location
 
 
 ### 2. Screen Archetypes
